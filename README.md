@@ -1,6 +1,15 @@
 
 <P align="center">
-    <img alt="Im Axct ID" src ="https://user-images.githubusercontent.com/72728486/108575146-e06e5280-734b-11eb-9268-b91b09e8b374.gif" width="180"
+- 👋 Hi, I’m @Axctbot
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Axctbot/Axctbot is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
 
 </P>
 
@@ -9,7 +18,7 @@
 </p>
 <p align="center">
 <img src="https://gpvc.arturio.dev/Axctbot" />
-<a href="https://github.com/Axctbot"><img title="Author" src="https://img.shields.io/badge/Termux Whatsapp Bot-V2-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Axctbot"><img title="Author" src="https://img.shields.io/badge/Termux Whatsapp Bot-V3-orange?style=for-the-badge&logo=github"></a>
 <a href="https://github.com/Axctbot/followers"><img title="Followers" src="https://img.shields.io/github/followers/Axctbot?label=Followers&style=social"></a>
 <a href="https://github.com/Axctbot/im-Axct-v3-v2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Axctbot/termux-whatsapp-bot?&style=social"></a>
 <a href="https://github.com/Axctbot/im-Axct-v3-v2/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Axctbot/termux-whatsapp-bot?style=social"></a>
@@ -31,8 +40,7 @@
 ### Tes bot
 Sebelum menginstal Axct-v3 coba dulu botnya disini
 <p>
-<a href="https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst" target="blank"><img src="https://img.shields.io/badge/Grup Whatsapp 1-30302f?style=flat&logo=whatsapp" /></a>
-<a href="https://chat.whatsapp.com/CxAPJ6En3uSDqDX1mmBvrv" target="blank"><img src="https://img.shields.io/badge/Grup Whatsapp 2-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://chat.whatsapp.com/ICh1ubyFMLUFSW3Ej3QuzL" target="blank"><img src="https://img.shields.io/badge/Grup Whatsapp 1-30302f?style=flat&logo=whatsapp" /></a>
 </p>
 
 ### Tools
@@ -52,8 +60,8 @@ Sebelum menginstal Axct-v3 coba dulu botnya disini
 ### Install With Termux
 
 ```bash
-> git clone https://github.com/Axctbot/termux-whatsapp-bot
-> cd termux-whatsapp-bot
+> git clone https://github.com/Axctbot/botv3
+> cd botv3
 > bash install.sh
 > npm start
 ```
@@ -95,7 +103,7 @@ Contoh default :
 ```
 const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
-+ 'FN:Axct Admim\n' // Nama Owner
++ 'FN:Axct Admin\n' // Nama Owner
 + 'ORG:Axct-v3 bot;\n' // Nama bot
 + 'TEL;type=CELL;type=VOICE;waid=62895704959080:+62 895-7049-59080\n' // Nomor owner
 + 'END:VCARD' 
