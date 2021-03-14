@@ -248,7 +248,7 @@ async function starts() {
 		console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code above'))
 	})
 
-	fs.existsSync('./Axct.json') && Lxa.loadAuthInfo('./Axct.json')
+	fs.existsSync('./Lexa.json') && Lxa.loadAuthInfo('./Lexa.json')
 	Lxa.on('connecting', () => {
 		start('2', 'Connecting...')
 	})
@@ -256,7 +256,7 @@ async function starts() {
 		success('2', 'Connected')
 	})
 	await Lxa.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./Axct.json', JSON.stringify(Lxa.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./Lexa.json', JSON.stringify(Lxa.base64EncodedAuthInfo(), null, '\t'))
 
 
 	Lxa.on('group-participants-update', async (anu) => {
